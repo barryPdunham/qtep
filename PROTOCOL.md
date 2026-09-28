@@ -124,6 +124,8 @@ Before testing begins, document:
 * relevant assumptions;
 * explicit exclusions.
 
+Define the comparison boundary: identify the inputs, outputs, representations, and workflow stages included in the evaluation. Explicitly distinguish shared functionality from capabilities that fall outside the comparison.
+
 The evaluation should target a sufficiently narrow claim that available evidence could reasonably support or challenge it.
 
 ### Stage 2: Establish the Baseline
@@ -152,6 +154,8 @@ Equivalence may involve, depending upon the tool:
 * computational task;
 * input and output constraints.
 
+Before drawing comparative conclusions, identify an appropriate equivalence method and its limitations. Where practical, use an independent reference implementation, mathematical invariant, or established verification technique. The method should test the semantics relevant to the defined claim rather than merely compare superficial output characteristics.
+
 If equivalence cannot be established, comparative claims should stop or be explicitly qualified.
 
 ### Stage 5: Measure Value Added
@@ -173,6 +177,8 @@ Potential dimensions include:
 * reproducibility.
 
 The evaluation should distinguish measurable improvement from subjective convenience where possible.
+
+Where relevant, assess whether the demonstrated benefit justifies the additional adoption, integration, and maintenance burden relative to the baseline.
 
 ### Stage 6: Path-of-Pain Test
 
