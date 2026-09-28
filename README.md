@@ -17,10 +17,10 @@ QTEP evaluates specific claims and workflows rather than attempting to determine
 
 ## Status
 
-**Current version:** QTEP v0.1
+**Current version:** QTEP v0.2
 **Status:** Experimental
 
-Version 0.1 is the initial frozen protocol and will be tested through calibration evaluations before later versions are proposed.
+Version 0.1 established the initial protocol and was frozen for calibration. Version 0.2 incorporates lessons from the initial proactical evaluations, including clearer comparison boundaries and equivalence requirements.
 
 The canonical QTEP specification is maintained through this repository.
 
@@ -72,11 +72,15 @@ Software developed by an evaluator or the evaluator's organization may be tested
 
 ## Methodology
 
-The complete QTEP v0.1 methodology is documented in [`PROTOCOL.md`](PROTOCOL.md).
+The current QTEP methodology is documented in [`PROTOCOL.md`](PROTOCOL.md).
 
 The protocol follows a general sequence:
 
 **Define the claim → Establish a baseline → Test the happy path → Verify equivalence → Measure value → Test a credible difficult case → Assess developer experience → Characterize limitations → Reach a verdict**
+
+Evaluations should explicitly define the comparison boundary and identify an appropriate method for establishing equivalence. Successful execution alone does not demonstrate equivalent functionality or practical advantage.
+
+The evaluation should also consider whether demonstrated benefits justify relevant adoption, integration, and maintenance costs.
 
 QTEP emphasizes the **minimum sufficient experiment**: testing should continue only as far as necessary to reach a defensible conclusion about the defined claim.
 
@@ -108,9 +112,9 @@ You are free to share and adapt QTEP, including for commercial purposes, subject
 
 See [`LICENSE`](LICENSE) for the applicable license terms.
 
-## Repository Roadmap
+## Repository Scope
 
-QTEP v0.1 will initially contain:
+The QTEP repository maintains:
 
 * the protocol specification;
 * governance and contribution guidance;
